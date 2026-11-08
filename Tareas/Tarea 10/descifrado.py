@@ -17,4 +17,7 @@ for clave in range(0, 27):
             resultado += letra                        
 
     print("Clave", clave, ":", resultado)              
-    resultado = ""                                     
+    resultado = ""
+
+print("Después de analizar todos los recorridos posibles, llegamos a la conclusión de que hay que recorrer ocho letras hacia atrás todas las letras de nuestro mensaje para llegar al mensaje correcto")
+
