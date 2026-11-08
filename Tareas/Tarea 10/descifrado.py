@@ -11,8 +11,8 @@ for clave in range(0, 27):
     for letra in cifrado:         
         if letra in alfabeto:
             indice = alfabeto.index(letra)            
-            nuevo_indice = (indice - clave) % 27       
-            resultado += alfabeto[nuevo_indice]        
+            nuevoIndice = (indice - clave) % 27       
+            resultado += alfabeto[nuevoIndice]        
         else:
             resultado += letra                        
 
